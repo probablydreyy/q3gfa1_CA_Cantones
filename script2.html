@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+
+    <h1  id="output" style="font-family: 'Courier New', Courier, monospace;"> output </h1>
+    <a href="index.html">home</a>
+    <script>
+        var first_name = prompt("What's your first name: ");
+        var last_name = prompt("What's your family name?");
+        var birth_year = prompt("What year were you born?");
+
+        var age = 2023 - birth_year;
+
+        document.getElementById("output").innerHTML = "Hello " + first_name + " " + last_name +
+         "! How does it feel to be " + age + " years old?";
+
+    </script>
+
+    
+</body>
+</html>
